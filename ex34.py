@@ -1,6 +1,6 @@
 animals = ['bear', 'tiger', 'penguin', 'zebra']
-bear = animals [0]
-print (bear)
+bear = animals[0]
+print(bear)
 
 animals.append("kangaroo")
 animals.append("whale")
@@ -9,10 +9,10 @@ animals.append("Ant")
 animals.append("cat")
 
 for ani in animals:
-    print (f"All animals are : {ani}")
+    print(f"All animals are : {ani}")
 
 i = 0
 for anim in animals:
-    print (f"The first {i+1}st animal is at {i} and is a", anim)
-    print (f"The animal at {i} is the {i+1}st animal and is a", anim)
+    print(f"The first {i+1}st animal is at {i} and is a", anim)
+    print(f"The animal at {i} is the {i+1}st animal and is a", anim)
     i += 1
