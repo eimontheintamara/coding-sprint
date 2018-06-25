@@ -1,4 +1,4 @@
-the_count = [1, 2, 3, 4, 5]
+the_count = [1, 2, 3, 4, 5] 
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
@@ -19,7 +19,7 @@ for i in change:
 elements = []
 
 #then use th erange function to do 0 to 5 counts
-for i in range(0,6):
+for i in range(0, 6):
     print(f"Adding {i} to the lists.")
     #append is a function that lists understand
     elements.append(i)
